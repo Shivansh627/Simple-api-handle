@@ -1,0 +1,48 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.form{
+    padding:10vh 10vw;
+   
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#nme{
+    height: 4vh;
+    margin-bottom: 3vh;
+    width: 20vw;
+}
+#add{
+    height: 4vh;
+    margin-bottom: 3vh;
+    width: 20vw;
+}
+
+button{
+    width: 20vw;
+    background-color: blue;
+    color: white;
+    height: 4vh;
+    padding: 3vh ;
+    border: none;
+    font-size: larger;
+    border-radius: 7vh;
+}
